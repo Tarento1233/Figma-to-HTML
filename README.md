@@ -1,1 +1,5 @@
-https://www.figma.com/design/PrA5fWPPZVFCYTjkbz7Pz2/Figma-basics?node-id=4368-321189&node-type=frame&t=Ok9gfQ0wJ55WReZU-0
+Đây là toàn bộ code dự án số 1 trong seri tự học lập trình HTML CSS tại http://tuhoc.cc
+
+*link Figma dự án :
+
+https://www.figma.com/file/3kHcuu3c8fvhnA2q2wUwBM/
