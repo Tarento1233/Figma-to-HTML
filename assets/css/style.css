@@ -405,8 +405,11 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
+/* flex shrink nằm trong thẻ con nên hãy code trong thẻ con */
 .feedback-item {
+  width: 100%;
   display: flex;
+  flex-shrink: 0;
 }
 .feedback-item .avatar {
   width: 72px;
@@ -414,7 +417,10 @@ a {
   border-radius: 50%;
   object-fit: cover;
 }
-
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback-item .info .member-name {
   margin-top: 18px;
   color: #f7f7f7;
@@ -456,4 +462,46 @@ a {
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54; /* 153.846% */
+}
+/* ==============================features====================== */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+.features .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
 }
